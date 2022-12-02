@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "newmodern-ecommerce-app",
+    "slug": "newmodern-ecommerce-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/LogotipoNewModern.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/LogotipoNewModern.png",
+      "resizeMode": "contain",
+      "backgroundColor": "gold"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/LogotipoNewModern.png",
+        "backgroundColor": "gold"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.ico"
+    }
+  }
+}
