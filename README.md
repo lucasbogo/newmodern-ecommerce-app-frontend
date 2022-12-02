@@ -4,11 +4,13 @@
 
 Aplicativo desenvolvido como trabalho obrigatório para a disciplina **Projeto Integrador II** do curso de **Tecnologia em Ánalise e Desenvolvimento de Sistemas**. Este é o repositório referente ao **FRONT-END** da nossa aplicação. Portanto, eis aqui a **NewModern Ecommerce APP**.
 <br>
+<br>
 O repositório referente ao back-end/API da aplicação newmodern econtra-se neste repositório: [NewModern Ecommerce API - BACK-END](https://github.com/lucasbogo/newmodern-ecommerce-app)
 
 ### Ferramentas, Tecnologias e Padrões utilizados neste projeto:
 
 -  **ReactNative**
+-  **Yarn or NPM**
 -  **NativeBase**
 -  **React Native Swiper**
 -  **React Navigation**
@@ -32,6 +34,31 @@ O repositório referente ao back-end/API da aplicação newmodern econtra-se nes
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Yarn
+[Documentação Oficial](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable)
+
+### Nota:
+Deus sabe o quanto eu sofri para instalar bibliotecas essenciais para implementar este projeto corretamete usando o bendito **NPM**. No final das contas, eu consegui, mas a que custo?
+<br>
+<br>
+Antes de prosseguir com a instalação das bibliotecas deste trabalho, pare tudo e instale **Yarn**. Se quiser continuar com o **NPM**, que Deus o ajude.
+<br>
+<br>
+Após a instalação do **Yarn** substitua o ```npm install <package>``` por ```yarn add <package>```. Acabei de te salvar dias de patches e frustrações. De nada.
+
+### Sobre:
+
+Yarn fornece um rico conjunto de comandos de linha de comando para o ajudar em vários aspectos do seu pacote Yarn, incluindo instalação, administração, publicação, etc.
+
+### Instalação:
+
+#### Instalar Yarn globalmente
+```
+npm install --global yarn
+```
+#### Pronto. Apesar do npm ser super útil para o desenvolvimento do back-end. No front só trouxe desgraça. Desfruta da estabilidade do Yarn. :)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 # NativeBase
 [Documentação Oficial](https://nativebase.io/)
 
@@ -295,7 +322,7 @@ yarn add styled-components
 ### Sobre:
 
 ngrok é a vantagem programável da rede que acrescenta conectividade,
-segurança, e observabilidade às suas aplicações sem alterações de código. Como o android pega a porta 3000. (esqueci o motivo, mas não funciona...) Foi necessário utilizar NGROK para conseguir conextar com o localhost
+segurança, e observabilidade às suas aplicações sem alterações de código. Como o android pega a porta 3000 para um função exclusiva (esqueci o motivo exatamente, mas não funciona...) Foi necessário utilizar NGROK para conseguir conetar com o localhost
 
 install ngrok normally by using documentation.
 
@@ -305,7 +332,4 @@ install ngrok normally by using documentation.
 ngrok http 3000
 ```
 ### Copie e cole a URL NGROK em assets/common/baseUrl.js
-
-
-
 
