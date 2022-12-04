@@ -22,7 +22,7 @@ const FilteredProduct = (props) => {
                     <ListItem
                         key={item.filterProd}
                         onPress={() => {
-                            props.navigation.navigate("Detalhes Produto", { item: item })
+                            props.navigation.navigate("DetalhesProduto", { item: item })
                         }}
                         avatar
                     >

@@ -43,11 +43,11 @@ const FilteredCategories = (props) => {
                 {props.categories.map((item) => (
                     <TouchableOpacity
                         // key={item._id.$oid}
-                        key={item._id}
+                        key={item.id}
                         onPress={() => {
                             // TRABALHAR COM DADOS ESTÁTICOS
                             // props.categoryFilter(item._id.$oid),
-                                props.categoryFilter(item._id),
+                                props.categoryFilter(item.id),
                                 props.setActive(props.categories.indexOf(item))
                         }}
                     >
