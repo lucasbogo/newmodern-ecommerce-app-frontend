@@ -14,6 +14,7 @@ var { width } = Dimensions.get("window")
 // Filtrar produtos
 const FilteredProduct = (props) => {
     // Atribuir props à filterProducts (evitar repetição de código)
+    // se o legnht (tamanho) for maior que zero: renderiza-se a função map (para fazeer um 'loop' no array de todosos produtos filtrados
     const { filteredProducts } = props;
     return (
         <Content style={{ width: width }}>
