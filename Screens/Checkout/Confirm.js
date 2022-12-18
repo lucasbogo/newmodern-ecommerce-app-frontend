@@ -68,7 +68,7 @@ const Confirm = (props) => {
                     // Setar um 'time-out' ao clickar no botão, assim é possível dar um tempo para o sistema simular as conexões
                     setTimeout(() => {
                         props.clearCart();
-                        props.navigation.navigate("Carrinho");
+                        props.navigation.navigate("CarrinhoStack", { screen: "Carrinho" });
                     }, 500);
                 }
             }).catch((error) => {
